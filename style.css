@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    justify-content: center ;
+    flex-direction: row;
+    list-style: none;   
+    color:black;
+    background-color: none;
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-image:url("https://wallpapers.com/images/hd/borboletas-azuis-hollow-knight-htthva79qwf3msbg.jpg");
+ background-position:center 80%;
+    padding: 10px 20px;
+}
+.logo{
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+li{
+    padding: 12px 10px 5px 50px;
+}
+a{ 
+    text-decoration: none; 
+    color: white;
+}
+body{
+    font-family: 'fantasy', fantasy;
+}
