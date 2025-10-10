@@ -15,7 +15,7 @@ body{
     flex-direction: row;
     list-style: none;   
     color:black;
-    background-color: none;
+    background-color: black;
 }
 nav{
     color: white;
