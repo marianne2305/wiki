@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 body{
-    background-color: black; 
-  font-family:'poppins'
+    background-color: rgb(0,0,0); 
+  font-family:'poppins', sans-serif;
 }
 * {
   margin: 0;
@@ -39,13 +39,16 @@ a{
   
 }
 .hero {
-
+  z-index:10;
+  position: sticky;
+  top:0;
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))
 
-  , url('https://www.escapistmagazine.com/wp-content/uploads/2025/09/The-first-boss-of-Silksong-was-Steam-checkout-but-worth-it.jpg') no-repeat center center/cover;
-  background-position: 50% 80%;
+  , url('https://cdn2.steamgriddb.com/hero/beac6d8fdd97a5e184ace84f9988a0fc.png') no-repeat center center/cover;
+  background-position: 50% 45%;
   text-align: center;
-  color: #ebfced;
+  color: #FFFFFF;
+  
 }
 button{
   opacity:50%;
@@ -53,8 +56,8 @@ button{
   height:35px;
   background:none;
   border-radius:5px;
-  color: #ebfced;
-  border-color: #ebfced;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
   border-style:solid;
   font-family: inherit;
   cursor: pointer;
@@ -62,8 +65,13 @@ button{
   }
 button:hover{
   transform:scale(1.03);
-  background-color:rgba(199, 224, 193, 0.3);
+  background-color:rgba(255,255,255,0.3);
   opacity:100%;
 }
-  
+.textoVG{
+  color: white;
+  position:relative;
+  margin:12px;
+  font-size:1.5rem;
+}
 
