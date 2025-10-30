@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    background-color: rgb(0,0,0); 
+  font-family:'poppins', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    justify-content: center ;
+    flex-direction: row;
+    list-style: transparent;   
+    color:black;
+    background-color: none;
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: -58px;
+}
+.logo{
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    
+}
+li{
+    padding: 12px 10px 5px 50px;
+}
+a{ 
+    text-decoration: none; 
+    color: white;
+  
+}
+.hero {
+  z-index:10;
+  position: sticky;
+  top:0;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+
+  , url('https://cdn2.steamgriddb.com/hero/beac6d8fdd97a5e184ace84f9988a0fc.png') no-repeat center center/cover;
+  background-position: 50% 45%;
+  text-align: center;
+  color: #FFFFFF;
+  
+}
+button{
+  opacity:50%;
+  width:150px;
+  height:35px;
+  background:none;
+  border-radius:5px;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  border-style:solid;
+  font-family: inherit;
+  cursor: pointer;
+  transform: background-color 1ms transition scale ease-in-out 2s;transform
+  }
+button:hover{
+  transform:scale(1.03);
+  background-color:rgba(255,255,255,0.3);
+  opacity:100%;
+}
